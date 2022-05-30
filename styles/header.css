@@ -1,0 +1,163 @@
+header{
+  background-color: white;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 55px;
+  border-bottom: 1px solid rgb(210,210,210);
+  transition: all 0.5s;
+  z-index: 100;
+}
+  .left-section{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+  }
+    .hamburger-menu{
+      height: 25px;
+      margin: 0px 20px 0px 15px;
+      cursor: pointer;
+    }
+    .yt{
+      text-decoration: none;
+    }
+      .yt-logo{
+        height: 20px;
+        margin: 5px 0px 0px 0px;
+      }
+  
+  .mid-section{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    margin-left: 70px;
+    margin-right: 35px;
+    max-width: 500px;
+    height: 45px;
+  }
+    .searchbar{
+      flex: 1;
+      height: 35px;
+      padding-left: 10px;
+      font-size: 15px;
+      border: 2px solid rgb(190,190,190);
+      border-radius: 2px;
+      box-shadow: inset 1px 2px 3px rgba(0,0,0,0.05);
+      width: 0px;
+      outline: none;
+      transition: all 0.25s;
+    }
+      .searchbar:hover{
+        background-color: rgb(235, 235, 235);
+      }
+      .searchbar::placeholder{
+        font-size: 15px;
+      }
+    .search-button,
+    .voice-search-button{
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      transition: all 0.5s;
+    }
+      .search-button:active,
+      .voice-search-button:active{
+        opacity: 0.75;
+      }
+    .search-button{
+      height: 41px;
+      width: 65px;
+      background-color: rgb(240, 240, 240);
+      border: 2px solid rgb(190,190,190);
+      margin: 0px 10px 0px -2px;
+    }
+    .voice-search-button{
+      height: 40px;
+      width: 40px;
+      border-radius: 50%;
+      border: none;
+      background-color: rgb(245, 245, 245);
+    }
+      .search-button-img,
+      .voice-search-button-img{
+        height: 25px;
+      }
+
+  .right-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 180px;
+    margin-right: 20px;
+    flex-shrink: 0;
+  }
+    .right-section-toggles,
+    .right-section-toggles-img{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 25px;
+      width: 25px;
+      position: relative;
+      cursor: pointer;
+      transition: all 0.25s;
+      border-radius: 5px;
+    }
+      .right-section-toggles:hover{
+        background-color: rgba(0,0,0,0.05);
+      }
+      .right-section-toggles .notification-count{
+        position: absolute;
+        top: -2px;
+        right: -5px;
+        background-color: rgb(255, 0, 0);
+        color: white;
+        padding: 2px 5px;
+        font-size: 11px;
+        border-radius: 10px;
+      }
+    .current-user-pic,
+    .current-user-pic-img{
+      height: 35px;
+      width: 35px;
+      object-fit: cover;
+      border-radius: 50%;
+      cursor: pointer;
+      transition: all 0.25s;
+    }
+      .current-user-pic:hover{
+        opacity: 0.75;
+      }
+      .current-user-pic:active{
+        opacity: 0.5;
+      }
+
+
+      .tooltip{
+        position: absolute;
+        bottom: 0px;
+        background-color: gray;
+        color: white;
+        font-size: 12px;
+        padding: 4px 8px;
+        opacity: 0;
+        transition: all 0.25s;
+        transition-delay: 0.25s;
+        pointer-events: none;
+        white-space: nowrap;
+      }
+
+      .yt:hover .tooltip,
+      .search-button:hover .tooltip,
+      .voice-search-button:hover .tooltip,
+      .right-section-toggles:hover .tooltip{
+        opacity: 1;
+        bottom: -25px;
+      }

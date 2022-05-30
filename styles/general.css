@@ -1,0 +1,41 @@
+body{
+  font-family: Roboto, Arial;
+  transition: all 0.5s;
+}
+
+main{
+  display: flex;
+  padding: 70px 20px;
+}
+
+.disclaimer{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: rgba(0,0,0,0.5);
+  color: white;
+}
+
+/*SCROLLBAR SCROLLBAR SCROLLBAR*/
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #ffffff;
+  box-shadow: inset 0px 0px 5px rgb(222, 222, 222);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(195, 195, 195);
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(152, 152, 152);
+}

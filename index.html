@@ -1,0 +1,908 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+    <title>
+      Youtube Demo by Utkarsh
+    </title>
+
+    <link rel="icon" href="icons/youtube.png"
+          type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/contents.css">
+    <link rel="stylesheet" href="styles/rightbar.css">
+
+  </head>
+
+  <body>
+
+    <header>
+
+      <div class="left-section">
+
+        <img class="hamburger-menu" src="icons/hamburger-menu.svg">
+        
+        <a class="yt" href="https://www.youtube.com">
+          <img class="yt-logo" src="icons/youtube-logo.svg">
+          <div class="tooltip">YouTube Home</div>
+        </a>
+
+      </div><!--left-section-->
+
+      <div class="mid-section">
+
+        <input class="searchbar" type="text" placeholder="Search">
+        
+        <button class="search-button">
+          <img class="search-button-img" src="icons/search.svg">
+          <div class="tooltip">Search</div>
+        </button>
+        <button class="voice-search-button">
+          <img class="voice-search-button-img" src="icons/voice-search-icon.svg">
+          <div class="tooltip">Search with your voice</div>
+        </button>
+
+      </div><!--mid-section-->
+
+      <div class="right-section">
+
+        <div class="right-section-toggles">
+          <img class="right-section-toggles-img" src="icons/upload.svg">
+          <div class="tooltip">Create</div>
+        </div>
+        <div class="right-section-toggles">
+          <img class="right-section-toggles-img" src="icons/youtube-apps.svg">
+          <div class="tooltip">YouTube Apps</div>
+        </div>
+        <div class="right-section-toggles">
+          <img class="right-section-toggles-img" src="icons/notifications.svg">
+          <div class="tooltip">Notifications</div>
+          <div class="notification-count">7</div>
+        </div>
+        <div class="current-user-pic">
+          <img class="current-user-pic-img" src="pictures/nikola-tesla1.webp">
+        </div>
+
+      </div><!--right-section-->
+
+    </header>
+
+    <main>
+
+      <div class="contents">
+        
+        <div class="video">
+
+          <div class="video-content">
+            <img class="video-content-file" src="thumbnails/thumbnail-1.webp">
+
+            <div class="video-content-play">
+              <img class="video-content-play-icon" src="icons/youtube.png">
+            </div>
+            <div class="video-content-footer">
+              <div class="video-content-footer-left">
+                <div class="video-content-action-icon">
+                  <img class="video-content-action-icon-img" src="icons/play.svg">
+                  <div class="vc-tooltip">
+                    Play(k)
+                  </div>
+                </div><!--video-content-action-icon-->
+                <div class="video-content-action-icon">
+                  <img class="video-content-action-icon-img" src="icons/next-arrow.svg">
+                  <div class="vc-tooltip">
+                    Next(SHIFT+N)
+                  </div>
+                </div><!--video-content-action-icon-->
+                <div class="video-content-action-icon">
+                  <img class="video-content-action-icon-img" src="icons/vol.svg">
+                  <img class="volume-slider" src="icons/slider.svg">
+                  <div class="vc-tooltip">
+                    Mute(m)
+                  </div>
+                </div><!--video-content-action-icon-->
+                  0:00/14:20
+              </div><!--video-content-footer-left-->
+              <div class="video-content-footer-right">
+                <div class="video-content-action-icon">
+                  <img class="video-content-action-icon-img" src="icons/autoplay.png">
+                  <div class="vc-tooltip">
+                    Auto-play is on
+                  </div>
+                </div><!--video-content-action-icon-->
+                <div class="video-content-action-icon">
+                  <img class="video-content-action-icon-img" src="icons/subtitles.svg">
+                  <div class="vc-tooltip">
+                    Subtitles/closed captions(c)
+                  </div>
+                </div><!--video-content-action-icon-->
+                <div class="video-content-action-icon">
+                  <img class="video-content-action-icon-img" src="icons/settings.svg">
+                  <div class="vc-tooltip">
+                    Settings
+                  </div>
+                </div><!--video-content-action-icon-->
+                <div class="video-content-action-icon">
+                  <img class="video-content-action-icon-img" src="icons/pip.svg">
+                  <div class="vc-tooltip">
+                    Miniplayer(i)
+                  </div>
+                </div><!--video-content-action-icon-->
+                <div class="video-content-action-icon">
+                  <img class="video-content-action-icon-img" src="icons/rectangle.png">
+                  <div class="vc-tooltip">
+                    Cinema mode(t)
+                  </div>
+                </div><!--video-content-action-icon-->
+                <div class="video-content-action-icon">
+                  <img class="video-content-action-icon-img" src="icons/fullscreen.svg">
+                  <div class="vc-tooltip">
+                    Fullscreen(f)
+                  </div>
+                </div><!--video-content-action-icon-->
+              </div><!--video-content-footer-right-->
+            </div><!--video-content-footer-->
+          </div><!--video-content-->
+          <div class="video-title">
+            Talking Tech and AI with Google CEO Sundar Pichai!
+          </div><!--video-title-->
+          <div class="video-footer">
+            <div class="video-stats">
+              3,835,629 views &#183; 22 May 2021
+            </div><!--video-stats-->
+            <div class="video-action">
+              <div class="video-action-icon">
+                <img class="video-action-icon-img" src="icons/like.svg">
+                195K
+                <div class="video-tooltip">
+                  I like this
+                </div>
+              </div><!--video-action-icon-->
+              <div class="video-action-icon">
+                <img class="video-action-icon-img" src="icons/dislike.svg">
+                DISLIKE
+                <div class="video-tooltip">
+                  I dislike this
+                </div>
+              </div><!--video-action-icon-->
+              <div class="video-action-icon">
+                <img class="video-action-icon-img" src="icons/share.svg">
+                SHARE
+                <div class="video-tooltip">
+                  Share
+                </div>
+              </div><!--video-action-icon-->
+              <div class="video-action-icon">
+                <img class="video-action-icon-img" src="icons/scissors.png">
+                CLIP
+                <div class="video-tooltip">
+                  Clip
+                </div>
+              </div><!--video-action-icon-->
+              <div class="video-action-icon">
+                <img class="video-action-icon-img" src="icons/add2pl.png">
+                SAVE
+                <div class="video-tooltip">
+                  Save
+                </div>
+              </div>
+              <div class="video-action-icon">
+                <img class="video-action-icon-img" src="icons/menu3dot.svg">
+              </div><!--video-action-icon-->
+            </div><!--video-action-->
+          </div><!--video-footer-->
+
+        </div><!--video-->
+        <div class="video-description">
+
+          <div class="channel">
+
+            <div class="channel-about">
+              <div class="channel-pic">
+                <img class="channel-pic-img" src="pictures/channel-1.jpeg">
+              </div><!--channel-pic-->
+              <div class="channel-detail">
+                <div class="channel-name">
+                  Marques Brownlee	&#10004;
+                  <div class="video-tooltip">
+                    Marques Brownlee
+                  </div>
+                </div>
+                <div class="channel-subs">
+                  15.6M subscribers
+                </div>
+              </div><!--channel-detail-->
+            </div><!--channel-about-->
+            
+            <div class="channel-buttons">
+              <button class="subscribed-button">
+                SUBSCRIBED
+              </button>
+              <button class="join-button">
+                JOIN
+              </button>
+              <img class="notification-button" src="icons/notifications.svg">
+            </div><!--channel-buttons-->
+
+          </div><!--channel-->
+
+          <div class="video-description-txt">
+            Talking tech and AI on the heels of Google I/O.
+            Also a daily driver phone reveal from Google's CEO.
+            Shoutout to Sundar!
+            <p class="show-more">SHOW MORE</p>
+          </div><!--video-description-txt-->
+
+        </div><!--video-description-->
+
+        <div class="comments">
+
+          <div class="comments-header">
+            10,045 comments
+            <div class="sort-button">
+              <img class="sort-button-icon" src="icons/sort.svg">
+              SORT BY
+              <div class="video-tooltip">
+                Sort comments
+              </div>
+            </div>
+          </div><!--comments-header-->
+          <div class="add-comment">
+            <div class="user-pic">
+              <img class="user-pic-img" src="pictures/nikola-tesla1.webp">
+            </div>
+            <input class="comment-bar" type="text" placeholder="Add a comment...">
+          </div><!--add-comment-->
+
+          <div class="comment">
+            <div class="user-pic">
+              <img class="user-pic-img" src="pictures/channel-2.jpeg">
+            </div>
+            <div class="comment-details">
+              <div class="author-name">
+                Markiplier
+                <div class="time">
+                  1 year ago
+                </div><!--time-->
+              </div><!--author-name-->
+              <div class="comment-txt">
+                Great to see you both talking about future technologies.
+              </div><!--comment-txt-->
+              <div class="comment-actions">
+                <div class="comment-actions-icon">
+                  <img class="comment-actions-icon-img" src="icons/like.svg">
+                  25K
+                  <div class="video-tooltip">
+                    Like
+                  </div>
+                </div><!--comment-actions-icon-->
+                <div class="comment-actions-icon">
+                  <img class="comment-actions-icon-img" src="icons/dislike.svg">
+                  DISLIKE
+                  <div class="video-tooltip">
+                    Dislike
+                  </div>
+                </div><!--comment-actions-icon-->
+                <div class="comment-actions-icon">
+                  REPLY
+                </div><!--comment-actions-icon-->
+              </div><!--comment-actions-->
+              <div class="view-replies">
+                <img class="view-replies-arrow" src="icons/arrow-drop-down.svg">
+                View 1,296 replies
+              </div><!--view-replies-->
+
+            </div><!--comment-details-->
+          </div><!--comment-->
+          <div class="comment">
+            <div class="user-pic">
+              <img class="user-pic-img" src="pictures/channel-4.jpeg">
+            </div>
+            <div class="comment-details">
+              <div class="author-name">
+                Veritasium
+                <div class="time">
+                  11 months ago
+                </div><!--time-->
+              </div><!--author-name-->
+              <div class="comment-txt">
+                I've always admired Sundar. Great man!
+              </div><!--comment-txt-->
+              <div class="comment-actions">
+                <div class="comment-actions-icon">
+                  <img class="comment-actions-icon-img" src="icons/like.svg">
+                  7K
+                  <div class="video-tooltip">
+                    Like
+                  </div>
+                </div><!--comment-actions-icon-->
+                <div class="comment-actions-icon">
+                  <img class="comment-actions-icon-img" src="icons/dislike.svg">
+                  DISLIKE
+                  <div class="video-tooltip">
+                    Dislike
+                  </div>
+                </div><!--comment-actions-icon-->
+                <div class="comment-actions-icon">
+                  REPLY
+                </div><!--comment-actions-icon-->
+              </div><!--comment-actions-->
+              <div class="view-replies">
+                <img class="view-replies-arrow" src="icons/arrow-drop-down.svg">
+                View 72 replies
+              </div><!--view-replies-->
+
+            </div><!--comment-details-->
+          </div><!--comment-->
+          <div class="comment">
+            <div class="user-pic">
+              <img class="user-pic-img" src="pictures/channel-6.jpeg">
+            </div>
+            <div class="comment-details">
+              <div class="author-name">
+                MrBeast
+                <div class="time">
+                  1 year ago
+                </div><!--time-->
+              </div><!--author-name-->
+              <div class="comment-txt">
+                I am interviewing Sundar and Elon in a video. Coming next week. Stay Tuned.
+              </div><!--comment-txt-->
+              <div class="comment-actions">
+                <div class="comment-actions-icon">
+                  <img class="comment-actions-icon-img" src="icons/like.svg">
+                  93K
+                  <div class="video-tooltip">
+                    Like
+                  </div>
+                </div><!--comment-actions-icon-->
+                <div class="comment-actions-icon">
+                  <img class="comment-actions-icon-img" src="icons/dislike.svg">
+                  DISLIKE
+                  <div class="video-tooltip">
+                    Dislike
+                  </div>
+                </div><!--comment-actions-icon-->
+                <div class="comment-actions-icon">
+                  REPLY
+                </div><!--comment-actions-icon-->
+              </div><!--comment-actions-->
+              <div class="view-replies">
+                <img class="view-replies-arrow" src="icons/arrow-drop-down.svg">
+                View 11,632 replies
+              </div><!--view-replies-->
+
+            </div><!--comment-details-->
+          </div><!--comment-->
+          <div class="comment">
+            <div class="user-pic">
+              <img class="user-pic-img" src="pictures/channel-9.jpeg">
+            </div>
+            <div class="comment-details">
+              <div class="author-name">
+                ThenX
+                <div class="time">
+                  10 months ago
+                </div><!--time-->
+              </div><!--author-name-->
+              <div class="comment-txt">
+                From humble beginings to interviewing Google CEO. You've come a long way.
+                Keep going mate.
+              </div><!--comment-txt-->
+              <div class="comment-actions">
+                <div class="comment-actions-icon">
+                  <img class="comment-actions-icon-img" src="icons/like.svg">
+                  1K
+                  <div class="video-tooltip">
+                    Like
+                  </div>
+                </div><!--comment-actions-icon-->
+                <div class="comment-actions-icon">
+                  <img class="comment-actions-icon-img" src="icons/dislike.svg">
+                  DISLIKE
+                  <div class="video-tooltip">
+                    Dislike
+                  </div>
+                </div><!--comment-actions-icon-->
+                <div class="comment-actions-icon">
+                  REPLY
+                </div><!--comment-actions-icon-->
+              </div><!--comment-actions-->
+              <div class="view-replies">
+                <img class="view-replies-arrow" src="icons/arrow-drop-down.svg">
+                View 23 replies
+              </div><!--view-replies-->
+
+            </div><!--comment-details-->
+          </div><!--comment-->
+          <div class="comment">
+            <div class="user-pic">
+              <img class="user-pic-img" src="pictures/channel-7.jpeg">
+            </div>
+            <div class="comment-details">
+              <div class="author-name">
+                CS Dojo
+                <div class="time">
+                  1 year ago
+                </div><!--time-->
+              </div><!--author-name-->
+              <div class="comment-txt">
+                I wish I could meet him once.
+              </div><!--comment-txt-->
+              <div class="comment-actions">
+                <div class="comment-actions-icon">
+                  <img class="comment-actions-icon-img" src="icons/like.svg">
+                  857
+                  <div class="video-tooltip">
+                    Like
+                  </div>
+                </div><!--comment-actions-icon-->
+                <div class="comment-actions-icon">
+                  <img class="comment-actions-icon-img" src="icons/dislike.svg">
+                  DISLIKE
+                  <div class="video-tooltip">
+                    Dislike
+                  </div>
+                </div><!--comment-actions-icon-->
+                <div class="comment-actions-icon">
+                  REPLY
+                </div><!--comment-actions-icon-->
+              </div><!--comment-actions-->
+              <div class="view-replies">
+                <img class="view-replies-arrow" src="icons/arrow-drop-down.svg">
+                View 16 replies
+              </div><!--view-replies-->
+
+            </div><!--comment-details-->
+          </div><!--comment-->
+
+        </div><!--comments-->
+
+      </div><!--contents-->
+
+      <div class="rightbar">
+
+        <div class="recommendations">
+
+          <div class="recommendations-header">
+            <div class="recommendations-type-selected">
+              All
+            </div>
+            <div class="recommendations-type">
+              Related
+            </div>
+            <div class="recommendations-type">
+              From Marques Brownlee
+            </div>
+            <div class="recommendations-type">
+              Watched
+            </div>
+            <img class="recommendations-type-more" src="icons/right-arrow.svg">
+          </div><!--recommendations-header-->
+
+          <a class="recommendation" href="https://www.youtube.com/watch?v=mP0RAo9SKZk">
+            <div class="thumbnail">
+              <img class="thumbnail-img" src="thumbnails/thumbnail-2.webp">
+              <div class="thumbnail-action-1">
+                <img class="thumbnail-action-img" src="icons/clock.svg">
+                <div class="thumbnail-action-tooltip">
+                  Watch Later
+                </div>
+              </div><!--thumbnail-action-1-->
+              <div class="thumbnail-action-2">
+                <img class="thumbnail-action-img" src="icons/add2q.svg">
+                <div class="thumbnail-action-tooltip">
+                  Add to queue
+                </div>
+              </div><!--thumbnail-action-2-->
+              <div class="recommendation-duration">
+                8:22
+              </div><!--recommendation-duration-->
+            </div><!--thumbnail-->
+            <div class="recommendation-details">
+              <div class="recommendation-title">
+                Try Not To Laugh Challenge #69
+              </div>
+              <div class="recommendation-author">
+                Markiplier &#10004;
+                <div class="video-tooltip">
+                  Markiplier
+                </div>
+              </div>
+              <div class="recommendation-stats">
+                6.9M views &#183; 3 years ago
+              </div>
+            </div><!--recommendation-details-->
+            <img class="recommendation-action" src="icons/dots-three-vertical.svg">
+          </a><!--recommendation-->
+          
+          <a class="recommendation" href="https://www.youtube.com/watch?v=FgjPQQeTh1w">
+            <div class="thumbnail">
+              <img class="thumbnail-img" src="thumbnails/thumbnail-3.webp">
+              <div class="thumbnail-action-1">
+                <img class="thumbnail-action-img" src="icons/clock.svg">
+                <div class="thumbnail-action-tooltip">
+                  Watch Later
+                </div>
+              </div><!--thumbnail-action-1-->
+              <div class="thumbnail-action-2">
+                <img class="thumbnail-action-img" src="icons/add2q.svg">
+                <div class="thumbnail-action-tooltip">
+                  Add to queue
+                </div>
+              </div><!--thumbnail-action-2-->
+              <div class="recommendation-duration">
+                9:13
+              </div><!--recommendation-duration-->
+            </div><!--thumbnail-->
+            <div class="recommendation-details">
+              <div class="recommendation-title">
+                Crazy Tik Toks Taken Moments Before DISASTER
+              </div>
+              <div class="recommendation-author">
+                SSSniperWolf &#10004;
+                <div class="video-tooltip">
+                  SSSniperWolf
+                </div>
+              </div>
+              <div class="recommendation-stats">
+                2M views &#183; 4 months ago
+              </div>
+            </div><!--recommendation-details-->
+            <img class="recommendation-action" src="icons/dots-three-vertical.svg">
+          </a><!--recommendation-->
+          
+          <a class="recommendation" href="https://www.youtube.com/watch?v=094y1Z2wpJg">
+            <div class="thumbnail">
+              <img class="thumbnail-img" src="thumbnails/thumbnail-4.webp">
+              <div class="thumbnail-action-1">
+                <img class="thumbnail-action-img" src="icons/clock.svg">
+                <div class="thumbnail-action-tooltip">
+                  Watch Later
+                </div>
+              </div><!--thumbnail-action-1-->
+              <div class="thumbnail-action-2">
+                <img class="thumbnail-action-img" src="icons/add2q.svg">
+                <div class="thumbnail-action-tooltip">
+                  Add to queue
+                </div>
+              </div><!--thumbnail-action-2-->
+              <div class="recommendation-duration">
+                22:09
+              </div><!--recommendation-duration-->
+            </div><!--thumbnail-->
+            <div class="recommendation-details">
+              <div class="recommendation-title">
+                The Simplest Math Problem No One Can Solve - Collatz Conjencture
+              </div>
+              <div class="recommendation-author">
+                Veritasium &#10004;
+                <div class="video-tooltip">
+                  Veritasium
+                </div>
+              </div>
+              <div class="recommendation-stats">
+                16M views &#183; 6 months ago
+              </div>
+            </div><!--recommendation-details-->
+            <img class="recommendation-action" src="icons/dots-three-vertical.svg">
+          </a><!--recommendation-->
+          
+          <a class="recommendation" href="https://www.youtube.com/watch?v=86CQq3pKSUw">
+            <div class="thumbnail">
+              <img class="thumbnail-img" src="thumbnails/thumbnail-5.webp">
+              <div class="thumbnail-action-1">
+                <img class="thumbnail-action-img" src="icons/clock.svg">
+                <div class="thumbnail-action-tooltip">
+                  Watch Later
+                </div>
+              </div><!--thumbnail-action-1-->
+              <div class="thumbnail-action-2">
+                <img class="thumbnail-action-img" src="icons/add2q.svg">
+                <div class="thumbnail-action-tooltip">
+                  Add to queue
+                </div>
+              </div><!--thumbnail-action-2-->
+              <div class="recommendation-duration">
+                11:17
+              </div><!--recommendation-duration-->
+            </div><!--thumbnail-->
+            <div class="recommendation-details">
+              <div class="recommendation-title">
+                Kadane's Algorithm to Maximum Sum Subarray Problem
+              </div>
+              <div class="recommendation-author">
+                CS Dojo &#10004;
+                <div class="video-tooltip">
+                  CS Dojo
+                </div>
+              </div>
+              <div class="recommendation-stats">
+                99K views &#183; 9 months ago
+              </div>
+            </div><!--recommendation-details-->
+            <img class="recommendation-action" src="icons/dots-three-vertical.svg">
+          </a><!--recommendation-->
+
+          <a class="recommendation" href="https://www.youtube.com/watch?v=yXWw0_UfSFg">
+            <div class="thumbnail">
+              <img class="thumbnail-img" src="thumbnails/thumbnail-6.webp">
+              <div class="thumbnail-action-1">
+                <img class="thumbnail-action-img" src="icons/clock.svg">
+                <div class="thumbnail-action-tooltip">
+                  Watch Later
+                </div>
+              </div><!--thumbnail-action-1-->
+              <div class="thumbnail-action-2">
+                <img class="thumbnail-action-img" src="icons/add2q.svg">
+                <div class="thumbnail-action-tooltip">
+                  Add to queue
+                </div>
+              </div><!--thumbnail-action-2-->
+              <div class="recommendation-duration">
+                19:59
+              </div><!--recommendation-duration-->
+            </div><!--thumbnail-->
+            <div class="recommendation-details">
+              <div class="recommendation-title">
+                Anything You Can Fit In The Cirle I'll Pay For
+              </div>
+              <div class="recommendation-author">
+                MrBeast &#10004;
+                <div class="video-tooltip">
+                  MrBeast
+                </div>
+              </div>
+              <div class="recommendation-stats">
+                69M views &#183; 5 months ago
+              </div>
+            </div><!--recommendation-details-->
+            <img class="recommendation-action" src="icons/dots-three-vertical.svg">
+          </a><!--recommendation-->
+          
+          <a class="recommendation" href="https://www.youtube.com/watch?v=fNVa1qMbF9Y">
+            <div class="thumbnail">
+              <img class="thumbnail-img" src="thumbnails/thumbnail-7.webp">
+              <div class="thumbnail-action-1">
+                <img class="thumbnail-action-img" src="icons/clock.svg">
+                <div class="thumbnail-action-tooltip">
+                  Watch Later
+                </div>
+              </div><!--thumbnail-action-1-->
+              <div class="thumbnail-action-2">
+                <img class="thumbnail-action-img" src="icons/add2q.svg">
+                <div class="thumbnail-action-tooltip">
+                  Add to queue
+                </div>
+              </div><!--thumbnail-action-2-->
+              <div class="recommendation-duration">
+                10:13
+              </div><!--recommendation-duration-->
+            </div><!--thumbnail-->
+            <div class="recommendation-details">
+              <div class="recommendation-title">
+                Why Planes Don't Fly Over Tibet
+              </div>
+              <div class="recommendation-author">
+                RealLifeLore &#10004;
+                <div class="video-tooltip">
+                  RealLifeLore
+                </div>
+              </div>
+              <div class="recommendation-stats">
+                6.6M views &#183; 1 year ago
+              </div>
+            </div><!--recommendation-details-->
+            <img class="recommendation-action" src="icons/dots-three-vertical.svg">
+          </a><!--recommendation-->
+          
+          <a class="recommendation" href="https://www.youtube.com/watch?v=lFm4EM1juls">
+            <div class="thumbnail">
+              <img class="thumbnail-img" src="thumbnails/thumbnail-8.webp">
+              <div class="thumbnail-action-1">
+                <img class="thumbnail-action-img" src="icons/clock.svg">
+                <div class="thumbnail-action-tooltip">
+                  Watch Later
+                </div>
+              </div><!--thumbnail-action-1-->
+              <div class="thumbnail-action-2">
+                <img class="thumbnail-action-img" src="icons/add2q.svg">
+                <div class="thumbnail-action-tooltip">
+                  Add to queue
+                </div>
+              </div><!--thumbnail-action-2-->
+              <div class="recommendation-duration">
+                7:12
+              </div><!--recommendation-duration-->
+            </div><!--thumbnail-->
+            <div class="recommendation-details">
+              <div class="recommendation-title">
+                Inside The world's Biggest Passenger Plane
+              </div>
+              <div class="recommendation-author">
+                Tech Vision &#10004;
+                <div class="video-tooltip">
+                  Tech Vision
+                </div>
+              </div>
+              <div class="recommendation-stats">
+                3.7M views &#183; 10 months ago
+              </div>
+            </div><!--recommendation-details-->
+            <img class="recommendation-action" src="icons/dots-three-vertical.svg">
+          </a><!--recommendation-->
+          
+          <a class="recommendation" href="https://www.youtube.com/watch?v=ixmxOlcrlUc">
+            <div class="thumbnail">
+              <img class="thumbnail-img" src="thumbnails/thumbnail-9.webp">
+              <div class="thumbnail-action-1">
+                <img class="thumbnail-action-img" src="icons/clock.svg">
+                <div class="thumbnail-action-tooltip">
+                  Watch Later
+                </div>
+              </div><!--thumbnail-action-1-->
+              <div class="thumbnail-action-2">
+                <img class="thumbnail-action-img" src="icons/add2q.svg">
+                <div class="thumbnail-action-tooltip">
+                  Add to queue
+                </div>
+              </div><!--thumbnail-action-2-->
+              <div class="recommendation-duration">
+                13:17
+              </div><!--recommendation-duration-->
+            </div><!--thumbnail-->
+            <div class="recommendation-details">
+              <div class="recommendation-title">
+                The SECRET to Super Human STRENGTH
+              </div>
+              <div class="recommendation-author">
+                ThenX &#10004;
+                <div class="video-tooltip">
+                  ThenX
+                </div>
+              </div>
+              <div class="recommendation-stats">
+                20M views &#183; 3 years ago
+              </div>
+            </div><!--recommendation-details-->
+            <img class="recommendation-action" src="icons/dots-three-vertical.svg">
+          </a><!--recommendation-->
+          
+          <a class="recommendation" href="https://www.youtube.com/watch?v=R2vXbFp5C9o">
+            <div class="thumbnail">
+              <img class="thumbnail-img" src="thumbnails/thumbnail-10.webp">
+              <div class="thumbnail-action-1">
+                <img class="thumbnail-action-img" src="icons/clock.svg">
+                <div class="thumbnail-action-tooltip">
+                  Watch Later
+                </div>
+              </div><!--thumbnail-action-1-->
+              <div class="thumbnail-action-2">
+                <img class="thumbnail-action-img" src="icons/add2q.svg">
+                <div class="thumbnail-action-tooltip">
+                  Add to queue
+                </div>
+              </div><!--thumbnail-action-2-->
+              <div class="recommendation-duration">
+                7:53
+              </div><!--recommendation-duration-->
+            </div><!--thumbnail-->
+            <div class="recommendation-details">
+              <div class="recommendation-title">
+                How The world's Largest Cruise Ship Makes 30,000 Meals Every Day
+              </div>
+              <div class="recommendation-author">
+                Business Insider &#10004;
+                <div class="video-tooltip">
+                  Business Insider
+                </div>
+              </div>
+              <div class="recommendation-stats">
+                14M views &#183; 1 year ago
+              </div>
+            </div><!--recommendation-details-->
+            <img class="recommendation-action" src="icons/dots-three-vertical.svg">
+          </a><!--recommendation-->
+          
+          <a class="recommendation" href="https://www.youtube.com/watch?v=0nZuYyXET3s">
+            <div class="thumbnail">
+              <img class="thumbnail-img" src="thumbnails/thumbnail-11.webp">
+              <div class="thumbnail-action-1">
+                <img class="thumbnail-action-img" src="icons/clock.svg">
+                <div class="thumbnail-action-tooltip">
+                  Watch Later
+                </div>
+              </div><!--thumbnail-action-1-->
+              <div class="thumbnail-action-2">
+                <img class="thumbnail-action-img" src="icons/add2q.svg">
+                <div class="thumbnail-action-tooltip">
+                  Add to queue
+                </div>
+              </div><!--thumbnail-action-2-->
+              <div class="recommendation-duration">
+                4:10
+              </div><!--recommendation-duration-->
+            </div><!--thumbnail-->
+            <div class="recommendation-details">
+              <div class="recommendation-title">
+                Dubai's Crazy Underwater Train and Other Things #Only in Dubai
+              </div>
+              <div class="recommendation-author">
+                Destination Tips &#10004;
+                <div class="video-tooltip">
+                  Destination Tips
+                </div>
+              </div>
+              <div class="recommendation-stats">
+                3M views &#183; 1 year ago
+              </div>
+            </div><!--recommendation-details-->
+            <img class="recommendation-action" src="icons/dots-three-vertical.svg">
+          </a><!--recommendation-->
+          
+          <a class="recommendation" href="https://www.youtube.com/watch?v=9iMGFqMmUFs">
+            <div class="thumbnail">
+              <img class="thumbnail-img" src="thumbnails/thumbnail-12.webp">
+              <div class="thumbnail-action-1">
+                <img class="thumbnail-action-img" src="icons/clock.svg">
+                <div class="thumbnail-action-tooltip">
+                  Watch Later
+                </div>
+              </div><!--thumbnail-action-1-->
+              <div class="thumbnail-action-2">
+                <img class="thumbnail-action-img" src="icons/add2q.svg">
+                <div class="thumbnail-action-tooltip">
+                  Add to queue
+                </div>
+              </div><!--thumbnail-action-2-->
+              <div class="recommendation-duration">
+                4:51
+              </div><!--recommendation-duration-->
+            </div><!--thumbnail-->
+            <div class="recommendation-details">
+              <div class="recommendation-title">
+                What would happen if you didn't drink water? - Mia Nacamulli
+              </div>
+              <div class="recommendation-author">
+                TED-Ed &#10004;
+                <div class="video-tooltip">
+                  TED-Ed
+                </div>
+              </div>
+              <div class="recommendation-stats">
+                12M views &#183; 5 years ago
+              </div>
+            </div><!--recommendation-details-->
+            <img class="recommendation-action" src="icons/dots-three-vertical.svg">
+          </a><!--recommendation-->
+
+        </div><!--recommendations-->
+
+      </div><!--rightbar-->
+
+    </main>
+
+  <!--DISCLAIMER-->
+  <div class="disclaimer">
+    <marquee scrollamount="10">
+      This is a demo created by Utkarsh.
+      All the contents are used for demonstration purposes only.
+      All the credit goes to their respective owners.
+      ||
+      © Copyright Disclaimer under Section 107 of the copyright act 1976,
+        allowance is made for fair use for purposes such as
+        criticism, comment, news reporting, scholarship, and research.
+      Fair use is a use permitted by copyright statute that might otherwise be infringing.
+      Non-profit, educational or personal use tips the balance in favour of fair use.
+    </marquee>
+  </div>
+
+  </body>
+
+</html>
