@@ -1,6 +1,7 @@
 @media(max-width:999px){
   .rightbar{
     position: fixed;
+    pointer-events: none;
     opacity: 0;
   }
 }
