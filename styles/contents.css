@@ -245,6 +245,7 @@
         margin: 0px 10px 10px 10px;
         padding: 0px 10px;
         border: none;
+        outline: none;
         border-bottom: 2px solid rgb(200,200,200);
         font-size: 17px;
       }
